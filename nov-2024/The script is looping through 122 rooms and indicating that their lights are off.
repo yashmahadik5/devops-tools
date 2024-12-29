@@ -1,0 +1,12 @@
+#!/bin/bash
+#Date 28th Dec 2024
+#Author DevOps Team
+#This script will execute and turn on all the light in the floor
+#Variable specification
+
+for room in {1..122}
+        do echo this $room number light off
+done
+
+echo "loops successfully completed"
+
